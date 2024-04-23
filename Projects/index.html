@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="Projectmain.css">
+	<script type="module" src="Projectmain.js"></script>
+</head>
+	<script>
+		function toggleMenu() {
+    var dropdownMenu = document.getElementById("myDropdown");
+    dropdownMenu.classList.toggle("show");
+}
+
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+
+	</script>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Malyshev_Factory_logo.svg/330px-Malyshev_Factory_logo.svg.png" alt="" style="width: 6%; height: 60px; margin-left: 0px; margin-top: 0px;">
+		<h1>Malyshev Factory</h1>
+		    <div class="dropdown">
+        <button onclick="toggleMenu()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="Projects/index.html">Projects</a>
+        </div>
+    </div>
+    </header>
+    <main>
+		<div class="divpre">
+		<h1>
+Our factory manufactures heavy military equipment such as tanks, armored personnel carriers (APCs), infantry fighting vehicles (IFVs), and so on. This tab provides some samples for familiarizing yourself with our products. Here are presented cutting-edge works that are used worldwide.</h1>
+		</div>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/69b7d1a1-f998-4162-9130-8e3b793f97ac/VH60dQnK96.json" background="#000000" speed="0.5" style="width: 200px; height: 200px; margin-left: 100px; margin-top: -210px" loop autoplay direction="1" mode="normal"></lottie-player>
+		<h1 class="zagolovok">
+		Projects <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/eec4f124-0f27-4879-8e8c-93e9e6202da4/1xPVIAKIES.json" background="transparent" speed="1" style="width: 100px; height: 100px; margin-left: 800px; margin-top: -60px" loop autoplay></dotlottie-player>
+		</h1>
+
+        <div class="div1">
+            <h2>T-64 BV (OBJECT 447A)</h2>
+            <p>The decision of the Military-Industrial Committee in 1981-1983 led to the development of technical documentation for the installation of the "Kontakt" explosive reactive armor during the major overhaul of the T-64B and T-64B1 tanks.</p>
+			<p>The modernized variants of the tanks were designated as T-64BV and T-64B1V, and were officially accepted by the USSR Ministry of Defense by Order No. 7 dated January 14, 1985. All new tanks T-64BV and T-64B1V were equipped with the 2A46M-1 tank guns, 2E42 weapon stabilizers, 1A33-1 fire control systems, and the 9K112-1 guided missile system. </p>
+			<p>Semiconductor radio stations R-173 "Abzats-R" were installed instead of outdated vacuum tube radio stations. Special brackets and mounts for attaching the reactive armor were welded to the turret, front, and side sheets of the hull, as well as to the fenders. The combat weight of the tank increased to 42.4 tons.</p>
+        </div>
+		<div class="div2">
+		<div class="sketchfab-embed-wrapper1"> <iframe title="T64BV" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/df2d1a8399634cfca26271200dd5985d/embed" style="width: 69.4%; height: 400px; margin-top: -130px; margin-left: 300px;"> </iframe> <p style="font-size: 13px; font-weight: 60%; margin-right: -0px; color: #4A4A4A;"></p>
+	    </div>
+		</div>
+		<div class="div3">
+		<h2>T-80 UD (Object 478B)</h2>
+		<p>In 1976, the T-80 tank was adopted into service; however, its gas turbine engine (GTE) was expensive and uneconomical. Increasing the power of the serial 5TDF engine of the T-64 tank to 750 horsepower proved problematic.</p>
+		<p>By Order No. 19 of the Ministry of Defense Industry dated January 15, 1974, the task was set to create a 6-cylinder diesel engine with a power of 1000 horsepower. The turbine of the T-80 cost about 104,000 Soviet rubles, while the diesel engine V-46 cost only 9,600 rubles in the 1980s.</p>
+		<p>Therefore, alongside the development and improvement of the gas turbine tank, a number of Soviet enterprises conducted their own developments of a tank variant with a diesel engine. Experimental machines "Object 219RD" and "Object 644" equipped with the A-53-2 (2V-16) and V-46-6 diesels, respectively, were created in Leningrad and Omsk. </p>
+	<div class="div4">
+			<div class="sketchfab-embed-wrapper2"> <iframe title="T80-UD" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/9dc882be9eeb4422a7a26d1c3b5f3555/embed" style="width: 90%; height: 400px; margin-top: -110px; margin-left: 790px;"> </iframe> <p style="font-size: 0px; font-weight: normal; margin: 0px; color: #4A4A4A;"></p></div>
+	</div>
+		</div>
+    </main>
+	<footer>
+        <p>&copy; Oznobys 2024</p>
+    </footer>
+</body>
+</html>

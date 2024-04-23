@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malyshev Factory</title>
+    <link rel="stylesheet" href="lcss.css">
+</head>
+	<script>
+		function toggleMenu() {
+    var dropdownMenu = document.getElementById("myDropdown");
+    dropdownMenu.classList.toggle("show");
+}
+
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+
+	</script>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Malyshev_Factory_logo.svg/330px-Malyshev_Factory_logo.svg.png" alt="" style="width: 6%; height: 60px; margin-left: 0px; margin-top: 0px;">
+		<h1>Malyshev Factory</h1>
+		<div class="dropdown">
+        <button onclick="toggleMenu()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="Projects/index.html">Projects</a>
+        </div>
+    </div>
+    </header>
+    <main>
+		<h1 class="zagolovok">
+		About factory
+		</h1>
+        <div class="div1">
+            <h2>The Malyshev Factory</h2>
+            <p>Is a state-owned manufacturer of heavy equipment in Kharkiv, Ukraine. 
+				It was named after the Soviet politician Vyacheslav Malyshev. 
+				The factory is part of the state concern, Ukroboronprom.</p>
+			 <p>It produces diesel engines, farm machinery, coal mining, sugar refining, and wind farm equipment, but is best known for its production of Soviet tanks, including the BT tank series of fast tanks, the famous T-34 of the Second World War, the Cold War T-64 and T-80, and their modern Ukrainian successor, the T-84.</p>
+			<p>The factory is closely associated with the Morozov Design Bureau (KMDB), designer of military armoured fighting vehicles and the Kharkov Engine Design Bureau for engines. In 1958, it developed the Kharkovchanka, an off-road vehicle which reached the South Pole the following year.</p>
+			<img src="https://kharkiv.name/wp-content/uploads/sites/16/2022/09/screenshot_1564.png" alt="" style="width: 80%; height: 400px; margin-left: 800px; margin-top: -325px;">
+        </div>
+		<h1 class="zagolovok">Our location</h1>
+		<div class="div2">
+		<p>The location of Kharkiv's Malyshev Factory is situated in the city of Kharkiv, Ukraine. Kharkiv, the second-largest city in Ukraine, holds a significant industrial heritage, and the Malyshev Factory, named after the Soviet politician Vyacheslav Malyshev, is an integral part of this industrial landscape.</p>
+		<p>The factory's location in Kharkiv, a major industrial and cultural hub in Eastern Ukraine, contributes to its historical significance and economic impact on the region. </p>
+		<p>With its roots dating back to the late 19th century, the Malyshev Factory has played a crucial role in the development of heavy machinery, armored vehicles, and other industrial products, shaping both the local and national economy.</p>
+		</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5132.807234943978!2d36.27044099357909!3d49.96628890000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270a7d4944f9b3%3A0x3ce7ab52ca49c9f0!2z0JfQsNCy0L7QtCDQuNC8LiDQki7QkC4g0JzQsNC70YvRiNC10LLQsA!5e0!3m2!1sru!2sua!4v1713698528459!5m2!1sru!2sua" width="600" height="450" style="border:0; margin-top: -307px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<h1 class="zagolovok">Contact Us</h1>
+		  <div class="div3">
+<form action="Thank You!">
+  <label for="number">Number:</label><br>
+  <input type="text" id="number" name="number" value="+380"><br>
+  <label for="Email">Email:</label><br>
+  <input type="text" id="email" name="email" placeholder="Email"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+</div>
+    </main>
+	<footer>
+        <p>&copy; Oznobys 2024</p>
+    </footer>
+</body>
+</html>
